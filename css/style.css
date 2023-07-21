@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap .background-image {
+  width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrap #login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap #login-form input[type="text"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 15px;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.wrap #login-form input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  padding: 5px 0;
+  background: none;
+  border-radius: 50px;
+  border: 1px solid #333;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+}
+
+.wrap #login-form input[type="submit"]:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.wrap #clock {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  margin: 0;
+  padding: 5px 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  font-weight: initial;
+}
+
+.wrap #greeting {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.wrap #greeting span {
+  padding: 5px 10px;
+  border-bottom: 1px solid #333;
+}
+
+.wrap #todo-wrap {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+}
+
+.wrap #todo-wrap #todo-form input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.wrap #todo-wrap #todo-list {
+  height: 300px;
+  margin: 20px 0 0;
+  padding: 0 10px;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.wrap #todo-wrap #todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.wrap #todo-wrap #todo-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.wrap #todo-wrap #todo-list li button {
+  padding: 5px 10px;
+  background: none;
+  border-radius: 50%;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap #todo-wrap #todo-list li button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.wrap #quote {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  color: #fff;
+}
+
+.wrap #quote span {
+  display: block;
+  text-align: center;
+}
+
+.wrap #quote span:last-of-type {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.wrap #weather {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.wrap #weather span {
+  display: block;
+  text-align: right;
+}
