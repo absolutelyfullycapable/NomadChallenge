@@ -47,7 +47,6 @@ function handleToDoSubmit(event) {
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
-// local storage에서 toDos 가져오고 화면에 표시하기
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
 if (savedToDos !== null) {
