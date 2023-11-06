@@ -1,4 +1,4 @@
-### 📝 Nomad Coder - Vanilla JS
+### 📝 Nomad Challenge - Vanilla JS
 
 ### fin!
 [결과물 확인](https://absolutelyfullycapable.github.io/NomadChallengeJS/)
